@@ -1,56 +1,72 @@
 .container {
   background: #55b52c;
-  width: 200px;
-}
-
-.neum {
-  border-radius: 40px;
-  background: linear-gradient(225deg, #5bc22f, #4da328);
-  box-shadow: -20px 20px 40px #2c5e17 20px -20px 40px #7eff41;
+  width: 1000px !important;
+  height: 900px !important;
+  padding: 20px;
+  color: #f1ffdc;
 }
 
 .education {
-  border-radius: 40px;
-  background: linear-gradient(225deg, #5bc22f, #4da328);
-  box-shadow: -20px 20px 40px #2c5e17 20px -20px 40px #7eff41;
-  padding: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  background: #55b52c;
+  box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
+  margin: 10px;
+}
+.education h4 {
+  color: #f1ffdc;
 }
 
 .level {
-  border-radius: 40px;
-  background: linear-gradient(225deg, #5bc22f, #4da328);
-  box-shadow: -20px 20px 40px #2c5e17 20px -20px 40px #7eff41;
+  width: 200px;
+  border-radius: 8px;
+  background: #55b52c;
+  box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
+  margin: 15px;
 }
 .level h4 {
-  border-radius: 40px;
-  background: linear-gradient(225deg, #5bc22f, #4da328);
-  box-shadow: -20px 20px 40px #2c5e17 20px -20px 40px #7eff41;
+  border-radius: 8px;
+  background: #55b52c;
+  box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
 }
 
 .themes {
-  border-radius: 40px;
-  background: linear-gradient(225deg, #5bc22f, #4da328);
-  box-shadow: -20px 20px 40px #2c5e17 20px -20px 40px #7eff41;
+  width: 200px;
+  border-radius: 8px;
+  background: #55b52c;
+  box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
+  margin: 15px;
 }
 
 .numbers {
   display: flex;
   flex-direction: row;
-  border-radius: 40px;
-  background: linear-gradient(225deg, #5bc22f, #4da328);
-  box-shadow: -20px 20px 40px #2c5e17 20px -20px 40px #7eff41;
+  border-radius: 8px;
+  background: #f1ffdc;
+  box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
+  margin: 15px;
 }
 .numbers h4 {
-  border-radius: 18px;
-  background: #55b52c;
-  box-shadow: inset -11px 11px 22px #36721c inset 11px -11px 22px #74f83c;
+  border-radius: 8px;
+  background: #f1ffdc;
+  box-shadow: inset -7px 7px 14px #224812, inset 7px -7px 14px #88ff46;
   margin-right: 30px;
 }
 
 .main {
+  width: 610px;
+  height: 300px;
   border-radius: 40px;
-  background: linear-gradient(225deg, #5bc22f, #4da328);
-  box-shadow: -20px 20px 40px #2c5e17 20px -20px 40px #7eff41;
+  background: #f1ffdc;
+  box-shadow: -20px 20px 40px #2c5e17, 20px -20px 40px #7eff41;
+  margin: 15px;
+}
+
+.levelnumber {
+  border-radius: 8px;
+  background: #55b52c;
+  box-shadow: inset -7px 7px 14px #224812, inset 7px -7px 14px #88ff46;
 }
 
 /*# sourceMappingURL=style.css.map */
