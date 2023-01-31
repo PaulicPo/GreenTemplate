@@ -1,14 +1,13 @@
 .container {
   background: #55b52c;
   width: 1000px !important;
-  height: 900px !important;
+  height: 570px !important;
   padding: 20px;
   color: #f1ffdc;
 }
 
 .education {
-  width: 200px;
-  height: 50px;
+  padding: 8px;
   border-radius: 8px;
   background: #55b52c;
   box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
@@ -16,6 +15,7 @@
 }
 .education h4 {
   color: #f1ffdc;
+  text-align: center;
 }
 
 .level {
@@ -24,11 +24,13 @@
   background: #55b52c;
   box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
   margin: 15px;
+  padding: 10px;
 }
 .level h4 {
   border-radius: 8px;
   background: #55b52c;
   box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
+  text-align: center;
 }
 
 .themes {
@@ -37,6 +39,11 @@
   background: #55b52c;
   box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
   margin: 15px;
+  text-align: left;
+  padding: 0px 0px 0px 10px;
+}
+.themes .col-md-7 {
+  margin: 0 !important;
 }
 
 .numbers {
@@ -45,28 +52,33 @@
   border-radius: 8px;
   background: #f1ffdc;
   box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
-  margin: 15px;
+  margin: 10px;
+  padding: 10px;
 }
 .numbers h4 {
-  border-radius: 8px;
-  background: #f1ffdc;
+  border-radius: 5px;
+  background: #55b52c;
   box-shadow: inset -7px 7px 14px #224812, inset 7px -7px 14px #88ff46;
-  margin-right: 30px;
+  margin: 0px 30px 0px 0px;
+  width: 27px;
+  text-align: center;
 }
 
 .main {
-  width: 610px;
-  height: 300px;
-  border-radius: 40px;
+  width: 697px;
+  height: 420px;
+  border-radius: 8px;
   background: #f1ffdc;
-  box-shadow: -20px 20px 40px #2c5e17, 20px -20px 40px #7eff41;
-  margin: 15px;
+  box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
+  margin: 10px;
+  color: #224812;
 }
 
 .levelnumber {
   border-radius: 8px;
   background: #55b52c;
   box-shadow: inset -7px 7px 14px #224812, inset 7px -7px 14px #88ff46;
+  padding: 0px 10px 0px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
