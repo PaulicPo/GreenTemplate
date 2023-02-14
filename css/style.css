@@ -11,7 +11,7 @@
   border-radius: 8px;
   background: #55b52c;
   box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
-  margin: 10px;
+  margin: 15px;
 }
 .education h4 {
   color: #f1ffdc;
@@ -27,9 +27,7 @@
   padding: 10px;
 }
 .level h4 {
-  border-radius: 8px;
-  background: #55b52c;
-  box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
+  color: #f1ffdc;
   text-align: center;
 }
 
@@ -42,8 +40,15 @@
   text-align: left;
   padding: 0px 0px 0px 10px;
 }
-.themes .col-md-7 {
+.themes .col-md-8 {
   margin: 0 !important;
+  padding: 0 !important;
+}
+.themes .col-md-3 {
+  padding-top: 42px;
+}
+.themes .col-md-3 .theme-checkbox {
+  margin-bottom: 17px;
 }
 
 .numbers {
@@ -55,7 +60,7 @@
   margin: 10px;
   padding: 10px;
 }
-.numbers h4 {
+.numbers li {
   border-radius: 5px;
   background: #55b52c;
   box-shadow: inset -7px 7px 14px #224812, inset 7px -7px 14px #88ff46;
@@ -66,7 +71,7 @@
 
 .main {
   width: 697px;
-  height: 420px;
+  height: 465px;
   border-radius: 8px;
   background: #f1ffdc;
   box-shadow: -7px 7px 14px #224812, 7px -7px 14px #88ff46;
@@ -77,8 +82,14 @@
 .levelnumber {
   border-radius: 8px;
   background: #55b52c;
-  box-shadow: inset -7px 7px 14px #224812, inset 7px -7px 14px #88ff46;
-  padding: 0px 10px 0px 10px;
+  box-shadow: inset -5px 5px 15px #224812, inset 5px -5px 15px #88ff46;
+  padding: 10px 10px 0px 10px;
+}
+.levelnumber h4 {
+  border-radius: 8px;
+  background: #55b52c;
+  box-shadow: -7px 7px 20px #224812, 7px -7px 20px #88ff46;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
